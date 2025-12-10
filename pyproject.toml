@@ -1,0 +1,17 @@
+[project]
+name = "tech-challenge-lstm"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.124.2",
+    "joblib>=1.5.2",
+    "numpy>=2.3.5",
+    "pandas>=2.3.3",
+    "prometheus-fastapi-instrumentator>=7.1.0",
+    "scikit-learn>=1.8.0",
+    "tensorflow>=2.20.0",
+    "uvicorn[standard]>=0.38.0",
+    "yfinance>=0.2.66",
+]
