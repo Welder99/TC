@@ -7,8 +7,8 @@ SYMBOL = "PETR4.SA"  # Ex.: "PETR4.SA" para Petrobras na B3
 START_DATE = "2018-01-01"
 END_DATE = "2025-12-09"
 
-WINDOW_SIZE = 5       # janelas de 60 dias
-TEST_RATIO = 0.2        # 20% para teste
+WINDOW_SIZE = 5       
+TEST_RATIO = 0.2       
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 ARTIFACTS_DIR = BASE_DIR / "artifacts"
